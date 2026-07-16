@@ -94,7 +94,7 @@ list nama packagenya:
 - ldap
 - telnet
 - tftp
-#### ensure autofs 
+ 
 ## networks
 ### networks kernel modules
 pattern
