@@ -227,6 +227,7 @@ hak akses
 | write     | w        | 4       |
 | read      | r        | 2       |
 | execution | x        | 1       |
+
 contoh:
 drwx-rx-x
 0731
