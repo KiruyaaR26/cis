@@ -264,6 +264,16 @@ pattern
 pacman -S sudo
 ```
 
+#### sudo timestamp_timeout
+pattern
+```
+nvim /etc/sudoers
+```
+isi dengan 
+```
+Defaults    env_reset,timestamp_timeout=15
+```
+
 ```
 nvim /etc/sudoers
 ```
@@ -289,16 +299,6 @@ nvim /etc/sudoers.d
 ```
 
 kedua file tersebut hapus line yang "NOPASSWD"
-
-#### sudo timestamp_timeout
-pattern
-```
-nvim /etc/sudoers
-```
-isi dengan 
-```
-Defaults    env_reset,timestamp_timeout=15
-```
 
 #### ensure access to the su  command
 ```
