@@ -37,7 +37,7 @@ list mount option:
 
 list mount page:
 1. /tmp
-2. dev/shm
+2. /dev/shm
 3. /home
 4. /var
 5. /var/tmp
